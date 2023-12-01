@@ -87,7 +87,7 @@ def adaboost_trees(X_train, y_train, X_test, y_test, n_trees):
     return train_error, test_error
 
 
-def main_hw5():
+def main():
 
     # Split the training data for (1 VS 3) and (3 VS 5)
     X_train_1v3, y_train_1v3, X_test_1v3, y_test_1v3 = split_data(1, 3)
@@ -122,4 +122,4 @@ def main_hw5():
 
 
 if __name__ == "__main__":
-    main_hw5()
+    main()
